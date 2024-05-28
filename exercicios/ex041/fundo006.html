@@ -8,16 +8,24 @@
 
         body {
             height: 100vh;
-            background-color: black;
+            /*background-color: black;
             background-image: url("imagens/wallpaper002.jpg");
             background-position: center center;
             background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;*/
+
+            /* Shorthand - background
+                color > image > position > repeat > [size] > attachment
+            */
+
+            background: black url("imagens/wallpaper002.jpg") center center no-repeat fixed;
             background-size: cover;
         }
 
         main {
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
@@ -28,6 +36,9 @@
 <body>
     <main>
         <h1>Teste de Imagem de Fundo</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto maxime amet exercitationem magnam quasi, quis, nulla deserunt, dolor eaque dignissimos perferendis impedit dolore optio hic minima porro velit at! A. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil sapiente ipsa pariatur consequatur accusamus veritatis facilis eum dolore nemo iure, magni quisquam inventore fuga, saepe atque laboriosam, eos impedit perferendis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto ipsum inventore quae id omnis adipisci, earum eos fugiat nihil suscipit dolor voluptates reprehenderit ratione commodi nostrum vitae velit, voluptatibus impedit?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto maxime amet exercitationem magnam quasi, quis, nulla deserunt, dolor eaque dignissimos perferendis impedit dolore optio hic minima porro velit at! A. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil sapiente ipsa pariatur consequatur accusamus veritatis facilis eum dolore nemo iure, magni quisquam inventore fuga, saepe atque laboriosam, eos impedit perferendis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto ipsum inventore quae id omnis adipisci, earum eos fugiat nihil suscipit dolor voluptates reprehenderit ratione commodi nostrum vitae velit, voluptatibus impedit?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto maxime amet exercitationem magnam quasi, quis, nulla deserunt, dolor eaque dignissimos perferendis impedit dolore optio hic minima porro velit at! A. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil sapiente ipsa pariatur consequatur accusamus veritatis facilis eum dolore nemo iure, magni quisquam inventore fuga, saepe atque laboriosam, eos impedit perferendis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto ipsum inventore quae id omnis adipisci, earum eos fugiat nihil suscipit dolor voluptates reprehenderit ratione commodi nostrum vitae velit, voluptatibus impedit?</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto maxime amet exercitationem magnam quasi, quis, nulla deserunt, dolor eaque dignissimos perferendis impedit dolore optio hic minima porro velit at! A. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil sapiente ipsa pariatur consequatur accusamus veritatis facilis eum dolore nemo iure, magni quisquam inventore fuga, saepe atque laboriosam, eos impedit perferendis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto ipsum inventore quae id omnis adipisci, earum eos fugiat nihil suscipit dolor voluptates reprehenderit ratione commodi nostrum vitae velit, voluptatibus impedit?</p>
     </main>
 </body>
